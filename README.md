@@ -16,13 +16,13 @@
 
 ![Class Diagram Source](diagrams/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B0%D1%8F%20Class%20Diagram.png)
 
-### 4. Class Diagram - Реверс-инжиниринг
+### 3. Class Diagram - Реверс-инжиниринг
 ![Class Diagram Original](diagrams/Class%20Diagram.jpg)
 
-### 5. Activity Diagrams
+### 4. Activity Diagrams
 ![Activity Diagram - Administrator](diagrams/ActivityDiagram.jpg)
 
-### 6. Sequence Diagrams
+### 5. Sequence Diagrams
 #### Manage University Structure
 
 ![Sequence Diagram - Manage Structure](diagrams/SEQUENCE%20DIAGRAM%20UC%20_Manage%20University%20Structure_.jpg)
