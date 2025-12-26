@@ -16,11 +16,8 @@
 
 ![Class Diagram Source](diagrams/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B0%D1%8F%20Class%20Diagram.png)
 
-### 3. Class Diagram - Оригинальная модель
-
-![Class Diagram Original](diagrams/Class%20Diagram.jpg)
 ### 4. Class Diagram - Реверс-инжиниринг
-Модель составляется автоматически из Java-кода в Astah Professional.
+![Class Diagram Original](diagrams/Class%20Diagram.jpg)
 
 ### 5. Activity Diagrams
 ![Activity Diagram - Administrator](diagrams/ActivityDiagram.jpg)
