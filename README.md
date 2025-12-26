@@ -6,36 +6,37 @@
 
 Информационная система управления университетом с полным UML-моделированием и реализацией на Java. Система включает структуру университета (факультеты, кафедры), управление персоналом, курсы и исследовательские проекты.
 
-## 🎯 Основные компоненты
+## 📇 UML Диаграммы
 
-### Диаграммы UML
-- **Use Case Diagram** - функциональные требования системы
-- **Class Diagram** - исходная модель и реверс-инжиниринг из кода
-- **Activity Diagrams** - процессы основных действующих лиц
-- **Sequence Diagrams** - взаимодействие объектов системы
+### 1. Use Case Diagram
 
-### Классы Java
-```
-University (корневой класс)
-├── Faculty
-├── Institute  
-├── Employee (абстрактный)
-│   ├── Lecturer
-│   ├── ResearchAssociate
-│   └── AdministrativeEmployee
-├── Course
-└── Project
-```
+![Use Case Diagram](diagrams/UseCaseDiagram.jpg)
 
-## 🚀 Запуск программы
+### 2. Class Diagram - Оригинальная модель
 
-```bash
-# Компиляция
-javac src/*.java -d bin/
+![Class Diagram Original](diagrams/Class%20Diagram.jpg)
 
-# Запуск
-java -cp bin/ Main
-```
+### 3. Class Diagram - Реверс-инжиниринг
+
+Модель составляется автоматически из Java-кода в Astah Professional.
+
+### 4. Activity Diagrams
+
+![Activity Diagram - Administrator](diagrams/ActivityDiagram.jpg)
+
+### 5. Sequence Diagrams
+
+#### Manage University Structure
+
+![Sequence Diagram - Manage Structure](diagrams/SEQUENCE%20DIAGRAM%20UC%20_Manage%20University%20Structure_.jpg)
+
+#### Teach Course
+
+![Sequence Diagram - Teach Course](diagrams/SEQUENCE%20DIAGRAM%20UC%20_Teach%20Course_.jpg)
+
+#### Manage Research Projects
+
+![Sequence Diagram - Research](diagrams/SEQUENCE%20DIAGRAM%20-%20UC%20_Manage%20Research%20Projects_.jpg)
 
 ## 📁 Структура репозитория
 
@@ -43,20 +44,8 @@ java -cp bin/ Main
 - `diagrams/` - UML диаграммы
 - `screenshots/` - результаты выполнения
 
-## ✅ Требования задания
-
-- ✓ UML диаграммы (Use Case, Class, Activity, Sequence)
-- ✓ Java исходный код
-- ✓ Реверс-инжиниринг (Code ↔ Diagrams)
-- ✓ Согласованность всех диаграмм
-- ✓ Скриншот выполнения программы
-
 ## 🛠️ Используемые технологии
 
 - **UML Modeling**: Astah Professional
 - **Language**: Java 8+
 - **IDE**: IntelliJ IDEA / Eclipse
-
-## 📝 Автор
-
-**mxgnvrx** - Декабрь 2025
