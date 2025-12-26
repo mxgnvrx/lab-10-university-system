@@ -12,20 +12,20 @@
 
 ![Use Case Diagram](diagrams/UseCaseDiagram.jpg)
 
-### 2. Class Diagram - Оригинальная модель
+### 2. Class Diagram - Исходная модель
+
+![Class Diagram Source](diagrams/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B0%D1%8F%20Class%20Diagram.png)
+
+### 3. Class Diagram - Оригинальная модель
 
 ![Class Diagram Original](diagrams/Class%20Diagram.jpg)
-
-### 3. Class Diagram - Реверс-инжиниринг
-
+### 4. Class Diagram - Реверс-инжиниринг
 Модель составляется автоматически из Java-кода в Astah Professional.
 
-### 4. Activity Diagrams
-
+### 5. Activity Diagrams
 ![Activity Diagram - Administrator](diagrams/ActivityDiagram.jpg)
 
-### 5. Sequence Diagrams
-
+### 6. Sequence Diagrams
 #### Manage University Structure
 
 ![Sequence Diagram - Manage Structure](diagrams/SEQUENCE%20DIAGRAM%20UC%20_Manage%20University%20Structure_.jpg)
